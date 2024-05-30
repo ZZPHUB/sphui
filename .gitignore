@@ -4,4 +4,6 @@ tmp.json
 __pycache__/*
 sphui.egg-info/*
 dist/*
-./*/__pycache__/*
+!sphui/*.py
+sphui/__pycache__
+sphui/__pycache__/*.pyc 

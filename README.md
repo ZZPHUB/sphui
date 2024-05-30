@@ -15,13 +15,25 @@ SPHUI基于Python的Tkinter库，为SPHLIB创建的一个GUI/CLI库。可以用�
 
 ### 0. 安装
 
+#### 源码安装
+
 1. 安装python3（必需）
 2. 安装git（非必需）
 3. `git clone https://github.com/ZZP-DMU/SPHUI.git`.如果读者未安装git,可以直接下载本仓库。
 4. `cd path/to/SPHUI`.对于巨硬使用者可以使用cmd or powershell等。
 5. `python3 main.py`
 
+##### pip安装
+
+1. `pip install sphui`
+
+#### 打包上传pypi(和读者无关)
+1. `python3 -m build`
+2. `python3 -m twine upload --repository testpypi dist/*`上传到testpypi中
+3. `python3 -m twine upload dist/*`
+
 ### 1. 生成SPHLIB配置文件
+1. `python3 -m sphui`
 
 ### 2. 调用SPHLIB程序
 

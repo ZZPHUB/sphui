@@ -2,3 +2,6 @@
 ./*/.DS_Store
 tmp.json
 __pycache__/*
+sphui.egg-info/*
+dist/*
+./*/__pycache__/*

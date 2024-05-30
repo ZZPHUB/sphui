@@ -5,3 +5,4 @@ __pycache__/*
 sphui.egg-info/*
 dist/*
 ./*/__pycache__/*
+./*/__pycache__
